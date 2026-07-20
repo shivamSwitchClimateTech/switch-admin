@@ -30,10 +30,8 @@ input,select,textarea{font-family:inherit;font-size:13px;color:var(--text)}
 
 /* ---------- Sidebar ---------- */
 .sidebar{position:fixed;left:0;top:0;bottom:0;width:var(--sidebar);background:#fff;border-right:1px solid var(--border);display:flex;flex-direction:column;z-index:20}
-.logo{display:flex;align-items:center;gap:8px;padding:16px 16px 14px}
-.logo svg{flex:none}
-.logo .lname{font-size:17px;font-weight:600;letter-spacing:-.3px;line-height:1}
-.logo .lsub{font-size:8.5px;color:var(--text);letter-spacing:.2px;margin-top:1px}
+.logo{display:flex;align-items:center;padding:16px 16px 14px}
+.logo img{display:block;height:32px;width:auto;object-fit:contain}
 .nav{padding:4px 10px;flex:1;overflow-y:auto}
 .nav-label{font-size:10.5px;letter-spacing:.6px;color:var(--text3);text-transform:uppercase;padding:14px 8px 6px;font-weight:500}
 .nav-item{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;border:none;background:none;border-radius:8px;color:var(--text);font-size:13px;font-weight:400;margin-bottom:2px;text-align:left}
@@ -167,8 +165,7 @@ tbody tr:hover{background:#FBFBFC}
 <!-- ================= SIDEBAR ================= -->
 <aside class="sidebar">
   <div class="logo">
-    <svg width="26" height="26" viewBox="0 0 26 26"><path d="M4 8.2C4 5 7.2 3 13 3s9 2 9 5.2c0 2.2-1.6 3.6-4.4 4.5L9.4 15c-2.8.9-4.4 2.3-4.4 4.5" fill="none" stroke="#2ED47A" stroke-width="4.6" stroke-linecap="round" transform="scale(0.92) translate(1,1)"/><path d="M22 17.8c0 3.2-3.2 5.2-9 5.2s-9-2-9-5.2" fill="none" stroke="#0E8C5F" stroke-width="4.6" stroke-linecap="round" transform="scale(0.92) translate(1,1)"/></svg>
-    <div><div class="lname">switch</div><div class="lsub">Climate Tech</div></div>
+    <img src="https://gateway.pinata.cloud/ipfs/bafkreicefrflxrdkrsjl5xlvuwsneiqzqbcxj27tvyr56d7oglt76nux34" alt="Switch">
   </div>
   <nav class="nav">
     <button class="nav-item active" data-m="gp" onclick="go('gp')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 10.5 12 4l9 6.5"/><path d="M5 9.5V20h14V9.5"/></svg>Green Projects</button>
